@@ -1,0 +1,609 @@
+/*******************forside****************************/
+body {
+    background-color: black;
+  }
+.forsideblomsterlogo {
+    width: 36%;
+    margin-top: 47%;
+    margin-left: 31%;
+}
+.forsidespan {
+    color: white;
+    font-size: 2rem;
+    margin-left: 44.7%;
+    margin-top: -32.3%;
+    position: absolute;
+}
+.forside_stor_text{
+    color: white;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: -65px;
+    margin-left: -15%;
+    width: 126%;
+    position: absolute;
+}
+.forside_lille_text{
+    color: white;
+    font-size: 0.7rem;
+    text-align: center;
+    margin-left: 17%;
+    margin-top: -23px;
+    width: 64%;
+    position: absolute;
+}
+.overlay .closebtn {
+    margin-top: 1%;
+    text-align: center;
+    margin-left: -12%;
+    font-size: 3rem;
+}
+.overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-y: hidden;
+    transition: 0.5s;
+}  
+.overlay-content {
+    position: relative;
+    top: 5%;
+    width: 100%;
+    text-align: center;
+    margin-left: -6%;
+    margin-top: 30px;
+    font-size: 3rem;
+}
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #b1b1b1;
+    display: block;
+    transition: 0.3s;
+} 
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+
+
+
+
+
+
+/****************for web ux animation indhold om mig**********************/
+.blomsterlogo{
+    width: 32%;
+    margin-top: -7%;
+    margin-left: 34%;
+}
+.span{
+    color: white;
+    font-size: 2rem;
+    margin-left: 45.2%;
+    margin-top: -29.5%;
+    position: absolute;
+}
+.scroll_container_text {
+    font-size: 1.5rem;
+    margin-top: 17%;
+    text-align: center;
+    margin-left: -1%;
+    color: white;
+}
+.scroll_container {
+    background-color: #333;
+      overflow: auto;
+      white-space: nowrap;
+      padding: 0% 6%;
+      margin-top: 5%;
+      width: 84%;
+      margin-left: 1%;
+}
+div.scroll_container img {
+    padding: 10px;
+    margin-left: -2%;
+}
+.line3{
+    border: 2px solid white;
+    margin-top: 41%;
+    width: 51%;
+    margin-left: 24%;
+}
+.footer-bottom-box{
+    color: white;
+    display: grid;
+    margin-top: 3%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-left: 25%;
+    margin-bottom: 13%;
+    text-align: center;
+}
+.line4{
+    border: 2px solid white;
+    margin-top: -8%;
+    width: 51%;
+    margin-left: 24%;
+    margin-bottom: 5%;  
+}
+  .overlay .close {
+    margin-top: 1%;
+    text-align: center;
+    margin-left: -2%;
+    font-size: 3rem;
+}
+.overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-y: hidden;
+    transition: 0.5s;
+}  
+.overlay-text {
+    position: relative;
+    top: 5%;
+    width: 100%;
+    text-align: center;
+    margin-left: -1%;
+    margin-top: 30px;
+    font-size: 3rem;
+}
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #b1b1b1;
+    display: block;
+    transition: 0.3s;
+} 
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+
+
+
+
+/************************web*******************************/
+.grid-moodboard{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    }
+.moodboard{
+        color: white;
+        text-align: center;
+        margin-top: 12%;
+      }
+.moodboard_h1{
+    color: white;
+    font-size: 2rem;
+    margin-top: 14%;
+    text-align: center;
+  }
+.moodboard_img{
+      width: 83%;
+      margin-left: 9%;
+      margin-top: 1%;
+  }
+.style-tile-h1{
+    margin-left: 39%;
+    color: white;
+    margin-top: 15%;
+    font-size: 1.3rem;
+    }
+.styletile_web_img{
+    margin-left: 12%;
+    width: 72%;
+}
+.problem-process {
+    margin-left: 12%;
+    margin-top: 1.5%;
+    color: white;
+    text-align: center;
+    width: 74%;
+    }
+    .problem-process-h{
+      margin-left: 3%;
+      margin-top: 12%;
+      font-size: 1.3rem;
+      color: white;
+    }
+    .web-p-img1{
+      width: 37%;
+      margin-left: 7%;
+      margin-top: 3%;
+    }
+    .web-p-img2{
+      width: 49%;
+      margin-left: 1%;
+      margin-top: 3%;
+    }
+  .løsning-process{
+    margin-left: 12%;
+    margin-top: 1.5%;
+    color: white;
+    text-align: center;
+    width: 74%;
+    }
+    .løsning-process-h{
+    margin-left: 5%;
+    margin-top: 12%;
+    font-size: 1.3rem;
+    }
+    .web-l-img1{
+      width: 68%;
+      margin-left: 15%;
+      margin-top: 3%;
+    }
+    .web-l-img2{
+      width: 68%;
+      margin-left: 15%;
+    }
+.LD{
+  color: white;
+  text-decoration: none;
+  border: 2px solid white;
+  position: absolute;
+  margin-top: 35%;
+  margin-left: -57%;
+  font-size: 1.5rem;
+    }
+    
+
+
+
+
+
+
+/***********************ux**************************/
+.span_ux{
+    color: white;
+    font-size: 2rem;
+    margin-left: -18%;
+    margin-top: 8%;
+    position: absolute;
+  }
+.ux_process{
+    color: white;
+    margin-top: 3%;
+    width: 73%;
+    text-align: center;
+    margin-left: 14%;
+  }
+.styletile_h1{
+  color: white;
+  text-align: center;
+  margin-top: 17%;
+}
+.uxstyletile{
+  width: 77%;
+  margin-left: 11%;
+}
+.ux_prototype{
+  color: white;
+    text-align: center;
+    margin-top: 21%;
+}
+.prototype{
+  width: 72%;
+  margin-left: -2%;
+}
+.main_box2{
+    background-color: #00155a;
+    width: 84%;
+    margin-left: 6%;
+    font-size: 1.5rem;
+    margin-top: 18%;
+    border: 2px solid white;
+}
+.rara{
+    color: white;
+    text-decoration: none;
+  }
+
+
+
+
+
+
+
+  
+/***************************animation***************************/
+.top_process{
+    color: white;
+    text-align: center;
+    text-align: center;
+    width: 73%;
+    margin-left: 14%;
+    margin-top: -11%;
+  }
+  .moodboard_img{
+    width: 71%;
+    margin-left: -4%;
+    margin-top: -3%;
+  }
+  .StyleTile{
+    color: white;
+      text-align: center;
+      margin-top: 14%;
+      margin-left: -5%;
+  }
+  .styletile_img{
+    margin-left: 3%;
+    width: 66%;
+      }
+.spil_problem_process{
+    color: white;
+      text-align: center;
+      width: 74%;
+      margin-left: 13%;
+      margin-top: 14%;
+  }
+.spil_ændring_process{
+    color: white;
+    text-align: center;
+    width: 79%;
+    margin-top: 17%;
+    margin-left: 9%;
+  }
+.Gronom{
+  color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    border: 2px solid white;
+    margin-left: 34%;
+    margin-top: 10%;
+    position: absolute;
+}
+
+
+
+
+
+
+
+
+/****************************indhold****************************/
+.redesign{
+  color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+.passion{
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+  .ih_box1,
+  .ih_box2,
+  .ih_box3{
+    color: white;
+      text-align: center;
+      margin-top: 18%;
+  }
+.styletile_indhold_img{
+    margin-left: -3%;
+    width: 71%;
+}
+  .ih_box4,
+  .ih_box5,
+  .ih_box6{
+    color: white;
+      text-align: center;
+      margin-top: 14%;
+      width: 76%;
+      margin-left: 14%;
+  }
+  .keiko_header_ændring{
+    width: 70%;
+    margin-left: 16%;
+    margin-top: 1%;
+  }
+  .keiko_footer_ændring{
+    width: 43%;
+    margin-left: 30%;
+    margin-top: 0.5%;
+  }
+  .keiko_header_løsning{
+    width: 64%;
+    margin-left: 18%;
+    }  
+.keiko{
+  color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    border: 2px solid white;
+    margin-left: -41%;
+    margin-top: 28%;
+    position: absolute;
+} 
+
+
+
+
+
+
+
+
+/*****************passion***********************************/
+.POW_text{
+  color: white;
+    font-size: -0.5rem;
+    text-align: center;
+    margin-top: 1%;
+    text-decoration: none;
+    position: absolute;
+    margin-left: 5%;
+}
+.POW_web{
+  width: 94%;
+  margin-left: 3%;
+  margin-top: 16%;
+}
+.POW_text_yt{
+  color: white;
+  font-size: -0.5rem;
+  text-align: center;
+  margin-top: 11%;
+  text-decoration: none;
+  position: absolute;
+  margin-left: 18%;
+}
+.POW_yt{
+  width: 94%;
+    margin-left: 3%;
+    margin-top: 37%;
+}
+
+
+
+
+
+
+
+
+/*************************om mig****************************/
+.mini_profil_cv{
+    display: none;
+  }
+  .overlay-content-desktop{
+    display: none;
+  }
+
+  .profil_cv{
+    width: 56%;
+    border-radius: 50%;
+    margin-left: 23%;
+    margin-top: 4%;
+    rotate: 41deg;
+  }
+
+  .green_box{
+    background-color: #25766a7a;
+    border-radius: 52%;
+    margin-left: 11%;
+    width: 76%;
+    rotate: 47deg;
+    margin-top: 14%;
+    margin-bottom: 27%;
+    border: 2px solid #ffffff6e;
+  }
+  .green_box2{
+    background-color: #25766a7a;
+    border-radius: 52%;
+    margin-left: -1%;
+    width: 101%;
+    rotate: -93deg;
+    margin-top: -1%;
+    border: 2px solid #ffffff6e;
+  }
+  .box_back{
+    color: white;
+    margin-bottom: -11%;
+    rotate: 0;
+    margin-top: -15%;
+  }
+  .ommig_box{
+    width: 66%;
+    text-align: center;
+    margin-left: 17%;
+    margin-top: -1%;
+    padding: 1% 1% 1% 0%;
+    margin-bottom: -17%;
+    rotate: 0;
+    color: white;
+    background-color: #123833;
+    border: 2px solid white;
+    border-radius: 47px;
+  }
+  .ommig_underskrift{
+    width: 86%;
+      margin-top: -1%;
+      margin-left: 9%;
+      margin-bottom: 4%;
+  }
+  .vsc_img{
+    width: 39%;
+    margin-top: 8%;
+    position: absolute;
+    border-radius: 50%;
+    margin-left: 31%;
+  }
+  .Ai_img{
+    border-radius: 50%;
+      position: absolute;
+      width: 17%;
+      margin-left: 18%;
+      margin-top: 47%;
+  }
+  .Xd_img{
+    border-radius: 50%;
+    width: 30%;
+    margin-left: 51%;
+    margin-top: 53%;
+  }
+  .hvad_jeg_har_lært{
+    color: white;
+      background-color: #123833;
+      border: 2px solid white;
+      border-radius: 82px;
+      margin-left: 2%;
+      margin-top: 32%;
+      padding: 3% 8% 5% 11%;
+      text-align: center;
+  }
+  .hvad_jeg_har_lært h1{
+    width: 73%;
+      text-align: center;
+      margin-left: 13%;
+  }
+  .mine_hobbyer{
+    color: white;
+      background-color: #123833;
+      border: 2px solid white;
+      border-radius: 82px;
+      margin-left: 2%;
+      margin-top: 9%;
+      padding: 3% 8% 5% 11%;
+      text-align: center;
+  }
+  .procreate_img{
+    width: 44%;
+    margin-top: 8%;
+    position: absolute;
+    border-radius: 50%;
+    margin-left: 26%;
+  }
+  .blender_img{
+    border-radius: 50%;
+    position: absolute;
+    width: 29%;
+    margin-left: 10%;
+    margin-top: 47%;
+  }
+  .csp_img{
+    border-radius: 50%;
+    width: 19%;
+    margin-left: 57%;
+    margin-top: 49%;
+  }
+.line5{
+  border: 2px solid white;
+    margin-top: 19%;
+    width: 51%;
+    margin-left: 24%;
+}
+.line6{
+  border: 2px solid white;
+  margin-top: -8%;
+  width: 51%;
+  margin-left: 24%;
+  margin-bottom: 5%;  
+}
